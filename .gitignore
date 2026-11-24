@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Training datasets
+data/
+*.npy
+*.npz
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+
+# Training logs
+logs/
+runs/
+wandb/
+
+# Hugging Face cache
+.cache/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

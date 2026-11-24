@@ -16,12 +16,6 @@ LMonade is a ~50M-parameter decoder-only Transformer built from scratch in PyTor
 and trained exclusively on Turkish text, from the BPE tokenizer to the training loop.
 No pretrained weights, no secret ingredients.
 
-### Ingredients
-- 🍋 BPE tokenizer trained from scratch on Turkish text (~50k vocabulary)
-- 🧊 Decoder-only Transformer (~50M parameters)
-- 🍯 A generous squeeze of self-attention
-- 💧 End-to-end training pipeline
-- 🚫 0% pretrained weights
 
 ### Why Turkish?
 Turkish is an agglutinative language: packs a lot of meaning into suffixes.
@@ -44,7 +38,7 @@ Wikipedia content is licensed under CC BY-SA 3.0 and the GFDL.
 
 ## 🇹🇷 Türkçe
 
-Dışarıdakilerin içine ne koyduklarını bilmiyoruz, en iyisi evde yapalım.
+Dışarıdakilerin içine ne koydukları belli değil, en iyisi evde yapalım.
 
 LMonade, PyTorch ile sıfırdan yazılmış ve yalnızca Türkçe metinlerle eğitilmiş,
 ~50 milyon parametreli, decoder-only bir Transformer modeli. BPE tokenizer'dan eğitim

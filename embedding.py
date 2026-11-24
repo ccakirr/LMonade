@@ -33,4 +33,4 @@ class LMonadeEmbedding(nn.Module):
         )
 
     def forward(self, x):
-        return self.token_embedding + self.position_encoding[:x.shape[1]]
+        return self.token_embedding(x) + self.position_encoding[:x.shape[1]]
